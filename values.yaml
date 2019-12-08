@@ -90,4 +90,8 @@ nodeSelector: {}
 
 tolerations: []
 
+annotations: []
+
+podAnnotations: []
+
 affinity: {}
