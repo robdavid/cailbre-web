@@ -48,6 +48,20 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
+env: []
+# - name: USE_CONFIG_DIR
+#   value: "true"
+# - name: SET_CONTAINER_TIMEZONE
+#   value: "true"
+# - name: CONTAINER_TIMEZONE
+#   value: "UTC"
+# - name: PUID
+#   value: 1029
+# - name: PGID
+#   value: 65539
+# - name: ADVANCED_DISABLEUPDATES
+#   value: "true"
+
 persistence:
   data:
     # Optionally specify claimName to manually override the PVC to be used for
